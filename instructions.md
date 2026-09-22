@@ -52,6 +52,18 @@ When exchanging a card, you may try to discard **two or more of your cards with 
 3. If they all have the same value, discard all of them and put the drawn card into one of the empty positions. You now have fewer cards.
 4. If they do not match, keep the revealed cards and add the drawn card to your layout as a penalty.
 
+## Matching the Discard Pile
+
+Whenever a card is placed face up on the discard pile, any player may immediately attempt to discard one of their own face-down cards with the same value.
+
+- Reveal the card you believe matches and place it on the discard pile.
+- If the values match, the card is successfully removed from your layout.
+- If the values do not match, return the incorrect card to your layout and take one face-down penalty card from the deck without looking at it.
+- If multiple players attempt to match simultaneously, only the first player to place their card on the discard pile succeeds.
+- Every slower player who also attempted the match must return their card to their layout and take one face-down penalty card from the deck without looking at it.
+- A player counts as having attempted the match once they reveal their card or move it toward the discard pile. They cannot avoid the penalty by withdrawing after another player wins.
+- The successfully discarded card becomes the new top card of the discard pile, so another matching card may immediately be played on it.
+
 You may not privately check the cards before attempting the match.
 
 ## Ending and Scoring a Round
@@ -64,9 +76,10 @@ The round ends after:
 Reveal all cards and add their printed values.
 
 - If the Cabo caller has the **lowest total, including a tie**, they score **0 points**.
-- If another player has a lower total, the caller scores their card total **plus 10 penalty points**.
+- If another player has a lower total, the caller scores their card total **plus 5 penalty points**.
 - Every other player scores the total value of their cards.
 - A player with no cards scores **0 points**.
+- if a player manages to have two 12s and two 13s and call "cabo" they have a "Kamikaze". Meaning 50 points is subtracted from their total and 50 points is added to every other player's total. 
 
 Keep a running score across rounds. The game ends after a round in which someone exceeds **100 points**. The player with the **lowest overall score** wins.
 
